@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "payment-gateway"
+version = "0.1.0"
+description = ""
+authors = ["kara <karahanozturk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "payment_gateway"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.3"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
